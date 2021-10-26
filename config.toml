@@ -1,0 +1,100 @@
+baseurl      = "https://lucaslion.fr"
+title        = 'Lucas LION'
+languageCode = "fr-fr"
+theme        = "hello_friend_hugo_theme"
+paginate     = 10
+
+[params]
+  dateform        = "2 Jan 2006"
+  dateformShort   = "2 Jan"
+  dateformNum     = "02-01-2006"
+  dateformNumTime = "02-01-2006 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "Développeur"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+  socialshare = true
+  # Metadata mostly used in document's head
+  description = "My homepage and portfolio"
+  keywords = "homepage, portfolio"
+  images = [""]
+  
+  # Social icons
+  [[params.social]]
+  name = "twitter"
+  url  = "https://twitter.com/Lastdred"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:lucaslion7@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/GratBoule"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/lucas-lion-b7891382/"
+
+  [[params.social]]
+  name = "instagram"
+  url  = "https://www.instagram.com/"
+
+
+  [[params.social]]
+  name = "malte"
+  url  = "https://www.malt.com/"
+
+
+  [params.Portrait]
+    path = "https://scontent-cdg2-1.xx.fbcdn.net/v/t1.6435-1/p160x160/32696412_10156419466732328_1247849112301207552_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=7206a8&_nc_ohc=vVG2rUGI2dcAX-LNJ4m&_nc_ht=scontent-cdg2-1.xx&oh=63d5c9eed438e409110301f9f44e7be3&oe=619ABD04"
+    # path = "/images/profile_pic.jpg"
+    alt = "Portrait" 
+    MaxWidth = "100vh"
+
+  [params.footer]
+    trademark = true
+    rss = true
+
+    
+
+    bottomText = [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+      'Made by <a href="mailto:lucaslion7@gmail.com">Lucas LION</a>'
+      ]
+
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+
+[languages]
+  [languages.fr]
+    title = "Hello Friend NG"
+    subtitle = "A simple theme for Hugo"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Bienvenue"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    # And you can even create generic menu
+    # [[menu.main]]
+    #   identifier = "portfolio"
+    #   name       = "Portfolio"
+    #   url        = "/portfolio"
+
+      
