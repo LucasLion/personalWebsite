@@ -5,6 +5,9 @@ theme        = "hello_friend_hugo_theme"
 paginate     = 10
 
 [params]
+
+  enableThemeToggle = true
+
   dateform        = "2 Jan 2006"
   dateformShort   = "2 Jan"
   dateformNum     = "02-01-2006"
@@ -35,7 +38,7 @@ paginate     = 10
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/GratBoule"
+    url  = "https://github.com/LucasLion"
 
   [[params.social]]
     name = "linkedin"
@@ -43,24 +46,24 @@ paginate     = 10
 
   [[params.social]]
   name = "instagram"
-  url  = "https://www.instagram.com/"
+  url  = "https://www.instagram.com/_lucaslion/"
 
 
   [[params.social]]
-  name = "malte"
+  name = "users"
   url  = "https://www.malt.com/"
 
 
   [params.Portrait]
-    path = "https://scontent-cdg2-1.xx.fbcdn.net/v/t1.6435-1/p160x160/32696412_10156419466732328_1247849112301207552_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=7206a8&_nc_ohc=vVG2rUGI2dcAX-LNJ4m&_nc_ht=scontent-cdg2-1.xx&oh=63d5c9eed438e409110301f9f44e7be3&oe=619ABD04"
-    # path = "/images/profile_pic.jpg"
+    path = "/profile_pic.jpg"
     alt = "Portrait" 
-    MaxWidth = "100vh"
+    MaxWidth = "400px"
 
   [params.footer]
     trademark = true
     rss = true
 
+  
     
 
     bottomText = [

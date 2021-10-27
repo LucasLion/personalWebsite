@@ -68,6 +68,7 @@
 - [twitch](https://simpleicons.org/?q=twitch)
 - [twitter](https://simpleicons.org/?q=twitter)
 - [unsplash](https://simpleicons.org/?q=unsplash)
+- [users](https://feathericons.com/?query=users)
 - [whatsapp](https://simpleicons.org/?q=whatsapp)
 - [xampp](https://simpleicons.org/?q=xampp)
 - [xing](https://simpleicons.org/?q=xing)
